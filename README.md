@@ -1,2 +1,2 @@
 # vimrc
-## Configured by Hanfei Yu
+## Configured by hanfeiyu
