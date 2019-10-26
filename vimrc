@@ -77,9 +77,7 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 
-"
-" For python
-"
+" Set coding style
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -108,7 +106,7 @@ func! CompileRunGcc()
     elseif &filetype == 'sh'
         :!time bash %
     elseif &filetype == 'python'
-        exec "!time python3.7 %"
+        exec "!time python3.6 %"
     elseif &filetype == 'html'
         exec "!firefox % &"
     elseif &filetype == 'go'
