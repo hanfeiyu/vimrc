@@ -1,2 +1,2 @@
 # vimrc
-## Configured by hanfeiyu
+Upgrade your VIM
